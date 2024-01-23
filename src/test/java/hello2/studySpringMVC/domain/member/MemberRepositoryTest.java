@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MemberRepositoryTest {
     MemberRepository memberRepository = MemberRepository.getInstance();
-
     @AfterEach
     void afterEach(){
         memberRepository.clearStore();
